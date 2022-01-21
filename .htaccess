@@ -1,5 +1,0 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteCond %{https://laravel-simple-sample.azurewebsites.net} ^(.*)
-    RewriteRule ^(.*)$ /public/$1 [NC,L,QSA]
-</IfModule>
